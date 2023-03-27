@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(72, 25, 241);
+  font-family: "Press Start 2P", cursive;
+  font-weight: 400;
+}
+
+.app {
+  background-color: rgb(0, 0, 0);
+  color: rgba(0, 128, 0, 0.966);
+  width: 50%;
+  height: 100vh;
+  text-align: center;
+  margin: 0 auto;
+}
+.app .app-text {
+  font-family: "Press Start 2P", cursive;
+  width: 90%;
+  height: 300px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: green;
+  padding: 10px;
+}
+.app .app-text:disabled {
+  background-color: #a5a2a2;
+}
+.app .app-start {
+  font-family: "Press Start 2P", cursive;
+  color: black;
+  background-color: green;
+  padding: 0.6em 2em;
+}/*# sourceMappingURL=main.css.map */
