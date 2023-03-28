@@ -14,8 +14,8 @@ function App() {
   
 
 
-  const handleInputChange = () => {
-    dispatch(handleChange());
+  const handleInputChange = (e) => {
+    dispatch(handleChange(e));
   };
 
   const handleStartGame = () => {
