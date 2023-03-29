@@ -1,6 +1,6 @@
 import { createStore} from "redux";
 
-const STARTING_TIME = 5;
+const STARTING_TIME = 30;
 
 const initialState = {
   text: "",
